@@ -28,13 +28,13 @@ The guide uses **marker‑file detection** as the primary method and provides **
 
 ```mermaid
 flowchart LR
-    A[Source Installer<br/>vendor_setup.exe] --> B[Wrap with IntuneWinAppUtil<br/>(.intunewin)]
-    B --> C[Intune Win32 App<br/>Metadata + Detection Rules]
-    C --> D[Assignment<br/>Pilot → Broad]
-    D --> E[Device Agent<br/>Intune Management Extension]
-    E --> F[Install + Detection<br/>Marker file / Version]
-    F --> G[Reporting<br/>Device status + Logs]
-    G --> H[Maintenance<br/>Supersedence / Uninstall / Rollback]
+    A[Source installer: vendor_setup.exe] --> B[Wrap with IntuneWinAppUtil to .intunewin]
+    B --> C[Intune Win32 app: metadata + detection rules]
+    C --> D[Assignment: pilot ? broad]
+    D --> E[Device agent: Intune Management Extension]
+    E --> F[Install + detection: marker file / version]
+    F --> G[Reporting: device status + logs]
+    G --> H[Maintenance: supersedence / uninstall / rollback]
 ```
 
 ---
