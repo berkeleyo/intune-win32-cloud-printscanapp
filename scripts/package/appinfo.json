@@ -1,0 +1,10 @@
+{
+  "DisplayName": "Kyocera Cloud Print & Scan (Win32)",
+  "Version": "1.14.28321.0",
+  "Publisher": "Kyocera",
+  "InstallCommand": "install.cmd",
+  "UninstallCommand": "uninstall.cmd",
+  "DetectionPrimary": "detection_marker.ps1",
+  "DetectionFallback": "detection_fileversion.ps1",
+  "Notes": "Version intentionally randomized for documentation; replace with real version in production."
+}
